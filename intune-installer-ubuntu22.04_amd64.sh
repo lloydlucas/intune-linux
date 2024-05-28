@@ -15,3 +15,5 @@ sudo apt update && sudo apt install -y microsoft-edge-stable intune-portal
 
 echo "Cleaning up..."
 sudo rm microsoft.gpg
+
+sudo shutdown -r 1 "Rebooting in 1 minute"
