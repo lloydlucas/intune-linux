@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "Installing curl"
-sudo apt update && sudo apt install -y curl
+sudo apt update && sudo apt install -y curl gpg
 
 echo "Adding repo for Microsoft Edge and Intune Portal..."
 # Microsoft Edge Repos https://packages.microsoft.com/repos/edge/pool/main/m/microsoft-edge-stable/
